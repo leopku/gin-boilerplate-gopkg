@@ -1,0 +1,16 @@
+package: gin-boilerplate
+import:
+- package: gopkg.in/gin-gonic/gin.v1
+  version: ^1.2.0
+- package: gopkg.in/appleboy/gin-jwt.v2
+  version: ^2.3.1
+- package: gopkg.in/casbin/casbin.v1
+  version: ^1.4.0
+- package: gopkg.in/jinzhu/gorm.v1
+  version: ^1.0.0
+- package: gopkg.in/mattes/migrate.v3
+  version: ^3.0.1
+- package: gopkg.in/joho/godotenv.v1
+  version: ^1.2.0
+- package: gopkg.in/sirupsen/logrus.v1
+  version: ^1.0.4

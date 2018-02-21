@@ -1,0 +1,21 @@
+/**
+* File: /.editorconfig
+* File Created: Wednesday, 21st February 2018 10:01:18 pm
+* Author: liusong (liusong@daojia.com)
+* -----
+* Last Modified: Wednesday, 21st February 2018 10:01:18 pm
+* Modified By: liusong (liusong@daojia.com>)
+* -----
+* Copyright 2018 - 2018 daojia.com, daojia
+*/
+# http://editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true

@@ -1,0 +1,51 @@
+hash: b3654511f65d8afaebe40e10b861ceaa0f06935790a73aed42f0f9c989591ab3
+updated: 2018-02-21T22:56:56.310294659+08:00
+imports:
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: 783c7ee9c14eac0e65b501664b4f553291556b43
+  subpackages:
+  - binding
+  - json
+  - render
+- name: github.com/golang/protobuf
+  version: bbd03ef6da3a115852eaf24c8a1c46aeb39aa175
+  subpackages:
+  - proto
+- name: github.com/json-iterator/go
+  version: e7c7f3b33712573affdcc7a107218e7926b9a05b
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/ugorji/go
+  version: 0076dd9cb1a958c695ab9190b34cc2f1296f2db2
+  subpackages:
+  - codec
+- name: golang.org/x/crypto
+  version: 432090b8f568c018896cd8a0fb0345872bbac6ce
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 37707fdb30a5b38865cfb95e5aab41707daec7fd
+  subpackages:
+  - unix
+  - windows
+- name: gopkg.in/appleboy/gin-jwt.v2
+  version: f7347d7c16fc8297bf5b7215b9e4847a5ca05d90
+- name: gopkg.in/casbin/casbin.v1
+  version: 3a17f2855cc12ad36fd614c590b9d18f46dfd65d
+- name: gopkg.in/gin-gonic/gin.v1
+  version: d459835d2b077e44f7c9b453505ee29881d5d12d
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/jinzhu/gorm.v1
+  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
+- name: gopkg.in/joho/godotenv.v1
+  version: a79fa1e548e2c689c241d10173efd51e5d689d5b
+- name: gopkg.in/mattes/migrate.v3
+  version: 035c07716cd373d88456ec4d701402df52584cb4
+- name: gopkg.in/sirupsen/logrus.v1
+  version: d682213848ed68c0a260ca37d6dd5ace8423f5ba
+- name: gopkg.in/yaml.v2
+  version: d670f9405373e636a5a2765eea47fac0c9bc91a4
+testImports: []
