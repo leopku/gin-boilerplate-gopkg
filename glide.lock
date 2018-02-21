@@ -1,5 +1,5 @@
-hash: b3654511f65d8afaebe40e10b861ceaa0f06935790a73aed42f0f9c989591ab3
-updated: 2018-02-21T22:56:56.310294659+08:00
+hash: 86c9315e2614affb08794ac1f757085402b56b080da0b2ee835ab735331d757c
+updated: 2018-02-21T23:33:53.956184166+08:00
 imports:
 - name: github.com/gin-contrib/sse
   version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
@@ -42,6 +42,8 @@ imports:
   version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
 - name: gopkg.in/joho/godotenv.v1
   version: a79fa1e548e2c689c241d10173efd51e5d689d5b
+- name: gopkg.in/jteeuwen/go-bindata.v3
+  version: bbd0c6e271208dce66d8fda4bc536453cd27fc4a
 - name: gopkg.in/mattes/migrate.v3
   version: 035c07716cd373d88456ec4d701402df52584cb4
 - name: gopkg.in/sirupsen/logrus.v1
