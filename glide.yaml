@@ -18,3 +18,5 @@ import:
   version: ^3.0.7
 - package: github.com/gin-gonic/gin
   version: ^1.2.0
+- package: github.com/dgrijalva/jwt-go
+  version: ^3.1.0
