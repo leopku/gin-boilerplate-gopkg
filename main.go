@@ -14,7 +14,8 @@ import (
 	"os"
 
   "gopkg.in/appleboy/gin-jwt.v2"
-  "gopkg.in/gin-gonic/gin.v1"
+  // "gopkg.in/gin-gonic/gin.v1"
+  "github.com/gin-gonic/gin"
   "gopkg.in/joho/godotenv.v1"
   "gopkg.in/sirupsen/logrus.v1"
 )
@@ -40,8 +41,8 @@ func main() {
     Key: []byte("secret key"),
     // Timeout: time.Hour,
     // MaxRefresh: time.Hour,
-    Authenticator: func(serId string, password string, c *gin.Context) (string, bool) {
-      if (userId == "admin" && password == "admin") || (userId == "test" && password ="test") {
+    Authenticator: func(userId string, password string, c *gin.Context) (string, bool) {
+      if (userId == "admin" && password == "admin") || (userId == "test" && password == "test") {
         return userId, true
       }
       return userId, false

@@ -16,3 +16,5 @@ import:
   version: ^1.0.4
 - package: gopkg.in/jteeuwen/go-bindata.v3
   version: ^3.0.7
+- package: github.com/gin-gonic/gin
+  version: ^1.2.0
