@@ -1,10 +1,10 @@
 hash: 86c9315e2614affb08794ac1f757085402b56b080da0b2ee835ab735331d757c
-updated: 2018-02-21T23:33:53.956184166+08:00
+updated: 2018-02-22T21:18:09.325221871+08:00
 imports:
 - name: github.com/gin-contrib/sse
   version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
 - name: github.com/gin-gonic/gin
-  version: 783c7ee9c14eac0e65b501664b4f553291556b43
+  version: ae22f0c87091eb75e08429082935ec48035320ac
   subpackages:
   - binding
   - json
@@ -14,13 +14,18 @@ imports:
   subpackages:
   - proto
 - name: github.com/json-iterator/go
-  version: e7c7f3b33712573affdcc7a107218e7926b9a05b
+  version: 414d0307c9b61145ac17cb87b2d00d3dae6babbe
 - name: github.com/mattn/go-isatty
   version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
 - name: github.com/ugorji/go
   version: 0076dd9cb1a958c695ab9190b34cc2f1296f2db2
   subpackages:
   - codec
+- name: github.com/v2pro/plz
+  version: 571356917fca907b069b7b47a14cd32ba0b340d4
+  subpackages:
+  - concurrent
+  - reflect2
 - name: golang.org/x/crypto
   version: 432090b8f568c018896cd8a0fb0345872bbac6ce
   subpackages:
@@ -34,6 +39,8 @@ imports:
   version: f7347d7c16fc8297bf5b7215b9e4847a5ca05d90
 - name: gopkg.in/casbin/casbin.v1
   version: 3a17f2855cc12ad36fd614c590b9d18f46dfd65d
+- name: gopkg.in/dgrijalva/jwt-go.v3
+  version: dbeaa9332f19a944acb5736b4456cfcc02140e29
 - name: gopkg.in/gin-gonic/gin.v1
   version: d459835d2b077e44f7c9b453505ee29881d5d12d
 - name: gopkg.in/go-playground/validator.v8
